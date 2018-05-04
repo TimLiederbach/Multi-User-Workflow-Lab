@@ -12,6 +12,8 @@
 
 #### Your workflow will look like the following:
 
+#### 🚨Before you get started take 5 minutes with your group to diagram your approach. Our workflow will be following [this guide](https://www.atlassian.com/git/tutorials/comparing-workflows/feature-branch-workflow). Take some time to read it if you're feeling lost. You're going to run into a merge conlict at the end have a look at this article to see how to move past it [merge conflict help](https://help.github.com/articles/resolving-a-merge-conflict-using-the-command-line/🚨
+
 #### **PART 1**
 - One team member will clone down this repo, create a new repo on github, and push this repo up.
 - The other team members will clone this repo localy.
