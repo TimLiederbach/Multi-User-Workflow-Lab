@@ -1,4 +1,4 @@
-// This will be in the starter code.
+// Fischer-Yates shuffle from this so post (https://stackoverflow.com/questions/6274339/how-can-i-shuffle-an-array)
 function shuffle(a) {
   for (let i = a.length - 1; i > 0; i -= 1) {
     const j = Math.floor(Math.random() * (i + 1));
@@ -10,17 +10,5 @@ function shuffle(a) {
 /*
 Using the above array shuffling method, create a function called randomGroups that takes
 an array and returns a random array of arrays each of which will have two students.
+Hint: slice is your friend.
 */
-
-// function randomGroups(arr) {
-//   const rndArr = shuffle(arr);
-//   const acc = [];
-//   for (let i = 0; i < arr.length; i += 2) {
-//     acc.push(rndArr.slice(i, i + 2));
-//   }
-//   return acc;
-// }
-
-// module.exports = randomGroups;
-
-

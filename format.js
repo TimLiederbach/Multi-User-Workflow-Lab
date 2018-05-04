@@ -4,14 +4,4 @@ the white space between them HINT: this regex might come in useful in the replac
 /\s\s+/g
 */
 
-// const format = arr =>
-//   arr.map(el =>
-//     el.split(' ')
-//       .reverse()
-//       .join(' ')
-//       .replace(/\s\s+/g, ' '));
-
-
-// module.exports = format;
-
 
