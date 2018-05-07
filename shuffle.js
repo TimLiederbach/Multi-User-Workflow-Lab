@@ -12,8 +12,9 @@ const students     = require('./students');
 
 function shuffle(){
 
-  const formatted= format(students);
-  const shuffled = randomGroups(formatted);
+  const formattedStudents = format(students);
+  const shuffledStudents  = randomGroups(formatted);
+
   writeToFile(shuffled);
   console.log(shuffled);
 }
