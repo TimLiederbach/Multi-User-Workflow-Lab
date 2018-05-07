@@ -1,3 +1,6 @@
+
+const students     = require('./students');
+
 // Fischer-Yates shuffle from this so post (https://stackoverflow.com/questions/6274339/how-can-i-shuffle-an-array)
 function shuffle(a) {
   for (let i = a.length - 1; i > 0; i -= 1) {
@@ -6,6 +9,10 @@ function shuffle(a) {
   }
   return a;
 }
+
+
+shuffle(students);
+
 
 /*
 Using the above array shuffling method, create a function called randomGroups that takes

@@ -9,3 +9,13 @@ const writeToFile  = require('./writeToFile');
 const students     = require('./students');
 
 
+
+function shuffle(){
+
+  const formatted= format(students);
+  const shuffled = randomGroups(formatted);
+  writeToFile(shuffled);
+  console.log(shuffled);
+}
+
+shuffle();
