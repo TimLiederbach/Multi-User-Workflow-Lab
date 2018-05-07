@@ -25,8 +25,8 @@
 - repeat these steps until all the features have been merged into master.
 
 #### **PART 2**
-- From master checkout a new branch called yourname-shuffle.
-- Here each of you will write the final function which is not in the starter code. The first person to get it working will alert the rest of the team and push to master. They will then checkout master and and pull down from github.
-- Once each team member has finished with the function they will try to push up to master.
-- It's not gonna work
-- In your editor...
+- Once all the features have have been merged into master it's time to finish the app!
+- This part of the workflow is up to you. 
+- you got this.
+- for realz
+
